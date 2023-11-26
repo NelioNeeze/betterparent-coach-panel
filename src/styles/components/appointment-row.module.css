@@ -1,0 +1,76 @@
+.imageIcon {
+  position: relative;
+  border-radius: var(--br-xs);
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.info,
+.label,
+.title {
+  position: relative;
+  line-height: 22px;
+}
+.title {
+  align-self: stretch;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 22px;
+  flex-shrink: 0;
+}
+.info,
+.label {
+  opacity: 0.6;
+}
+.info {
+  flex: 1;
+}
+.subinfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.content,
+.leftside {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.leftside {
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.date {
+  position: relative;
+  line-height: 22px;
+}
+.appointmentrow,
+.rightside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rightside {
+  padding: var(--padding-base);
+  justify-content: flex-end;
+  text-align: right;
+}
+.appointmentrow {
+  position: relative;
+  background-color: var(--background-light-paper);
+  width: 562px;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--underline-body2-size);
+  color: var(--grey-800);
+  font-family: var(--font-outfit);
+}

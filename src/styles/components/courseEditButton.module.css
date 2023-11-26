@@ -1,0 +1,32 @@
+.updateButton,
+.saveButton,
+.saveButtonGray {
+    align-self: stretch;
+    flex: 1;
+    border-radius: var(--br-5xs);
+    background-color: var(--transparent-primary-16);
+    display: flex;
+    flex-direction: row;
+    max-width: 200px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: var(--padding-2xs) var(--padding-3xl);
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+.updateButton,
+.saveButton {
+    background-color: var(--primary-main);
+    color: var(--background-light-paper);
+}
+.saveButtonGray {
+    background-color: "gray";
+    color: var(--primary-main);
+    opacity: 0.7;
+    cursor: default;
+}
+.label {
+  position: relative;
+  line-height: 26px;
+}

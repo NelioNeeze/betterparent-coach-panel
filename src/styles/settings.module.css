@@ -1,0 +1,34 @@
+.oneSetting{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.oneSettingText{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.coursedetailPage {
+    background-color: var(--color-gray);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 100vh;
+    overflow: hidden;
+    color: var(--grey-800);
+    font-family: var(--font-outfit);
+}
+.siteContent{
+    padding: 100px;
+}
+.settingsContainer{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.settingsInnerContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 24px;
+}

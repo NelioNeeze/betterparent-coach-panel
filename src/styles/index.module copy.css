@@ -1,0 +1,569 @@
+.beABetter,
+.letsMakeParenting {
+  align-self: stretch;
+  position: relative;
+  line-height: 139%;
+}
+.letsMakeParenting {
+  font-size: var(--font-size-5xl);
+  opacity: 0.76;
+}
+.beABetterParentWithBetterParent {
+  width: 490px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.kursFindenWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-lightcoral);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-13xl);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 24.63px;
+}
+.frameGroup,
+.headerParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  padding: 0 0 0 var(--padding-221xl);
+  justify-content: center;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-josefin-sans);
+}
+.headerParent {
+  align-self: stretch;
+  height: 100vh;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  background-image: url(/frame-2375@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  font-family: var(--font-pacifico);
+}
+.meineCoachingangebote {
+  align-self: stretch;
+  position: relative;
+  line-height: 125%;
+}
+.welcomeToTheWorld6 {
+  position: relative;
+  width: 151px;
+  height: 195px;
+  object-fit: cover;
+}
+.paragraph,
+.title {
+  align-self: stretch;
+  position: relative;
+  line-height: 31px;
+}
+.paragraph {
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-darkgray);
+}
+.div {
+  flex: 1;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.welcomeToTheWorld11,
+.welcomeToTheWorld2 {
+  position: relative;
+  width: 218px;
+  height: 199px;
+  object-fit: cover;
+}
+.welcomeToTheWorld2 {
+  width: 158px;
+  height: 222px;
+}
+.parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-21xl);
+}
+.welcomeToTheWorld5 {
+  position: relative;
+  width: 173px;
+  height: 187px;
+  object-fit: cover;
+}
+.welcomeToTheWorld1,
+.welcomeToTheWorld3 {
+  position: relative;
+  width: 136px;
+  height: 204px;
+  object-fit: cover;
+}
+.welcomeToTheWorld3 {
+  width: 124px;
+  height: 175px;
+}
+.features3,
+.frameContainer,
+.group {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.group {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.features3,
+.frameContainer {
+  flex-direction: column;
+}
+.frameContainer {
+  align-items: flex-start;
+  font-size: var(--font-size-2xl);
+}
+.features3 {
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-81xl) var(--padding-221xl) 82px;
+  align-items: center;
+}
+.unsereCoachingAngebote {
+  position: relative;
+  line-height: 125%;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-lightcoral);
+  width: 249px;
+  height: 56px;
+  opacity: 0.2;
+}
+.alleAnzeigen {
+  position: absolute;
+  top: 16.44px;
+  left: 21.11px;
+  line-height: 125%;
+  display: inline-block;
+  width: 189.65px;
+  transform: rotate(-0.27deg);
+  transform-origin: 0 0;
+}
+.groupItem {
+  top: 0;
+  left: 1.77px;
+  border-radius: 22.58px;
+  background-color: var(--color-lightcoral);
+  width: 2.51px;
+  height: 11.04px;
+  transform: rotate(-135deg);
+}
+.groupInner,
+.groupItem,
+.rectangleGroup {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.groupInner {
+  top: -13.84px;
+  left: 0;
+  border-radius: 22.58px;
+  background-color: var(--color-lightcoral);
+  width: 2.51px;
+  height: 11.04px;
+  transform: rotate(-45deg);
+}
+.rectangleGroup {
+  top: 36.61px;
+  left: 211px;
+  width: 15.61px;
+  height: 9.58px;
+  transform: rotate(-90deg);
+}
+.rectangleParent {
+  position: relative;
+  width: 249px;
+  height: 56px;
+  text-align: center;
+  font-size: 23.32px;
+  color: var(--color-lightcoral);
+}
+.unsereCoachingAngeboteParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.image {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-mistyrose);
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.12);
+  height: 300px;
+  z-index: 0;
+}
+.arrowChild5,
+.arrowChild6 {
+  position: absolute;
+  top: 0;
+  left: 1.93px;
+  border-radius: 19.69px;
+  background-color: var(--color-dimgray);
+  width: 2.73px;
+  height: 12.02px;
+  transform: rotate(-135deg);
+  transform-origin: 0 0;
+}
+.arrowChild6 {
+  top: -15.07px;
+  left: 0;
+  transform: rotate(-45deg);
+}
+.arrow4 {
+  position: relative;
+  width: 17px;
+  height: 10.43px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.cardbottom4 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 0 0 var(--br-xl) var(--br-xl);
+  background-color: var(--color-lavenderblush-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-13xl);
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.welcomeToTheWorld7 {
+  position: absolute;
+  margin: 0 !important;
+  top: 56px;
+  left: 110px;
+  width: 173px;
+  height: 187px;
+  object-fit: cover;
+  z-index: 2;
+}
+.coursecard4 {
+  width: 400px;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  font-size: var(--font-size-7xl);
+}
+.coursecard4,
+.coursecardParent,
+.features31 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.coursecardParent {
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 0 var(--padding-38xl) 0 0;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-xl);
+}
+.features31 {
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-81xl) 0 var(--padding-81xl) var(--padding-221xl);
+  justify-content: center;
+  gap: var(--gap-21xl);
+}
+.image1,
+.imageIcon4 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+}
+.imageIcon4 {
+  max-width: 100%;
+  overflow: hidden;
+  height: 556px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image1 {
+  background-color: var(--color-mistyrose);
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.12);
+  height: 500px;
+}
+.cardbottom9,
+.coursecard9,
+.features32 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.cardbottom9 {
+  flex: 1;
+  border-radius: 0 0 var(--br-xl) var(--br-xl);
+  background-color: var(--color-lavenderblush-100);
+  overflow: hidden;
+  padding: var(--padding-13xl);
+  align-items: center;
+  justify-content: center;
+}
+.coursecard9,
+.features32 {
+  align-items: flex-start;
+}
+.coursecard9 {
+  width: 400px;
+  justify-content: flex-start;
+  font-size: var(--font-size-7xl);
+}
+.features32 {
+  background-color: var(--color-white);
+  padding: var(--padding-81xl) var(--padding-221xl);
+  justify-content: center;
+  gap: var(--gap-21xl);
+}
+.meistGestellteFragenWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-33xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.wieLuftDer {
+  flex: 1;
+  position: relative;
+  line-height: 125%;
+  font-weight: 600;
+}
+.groupChild4,
+.groupChild5 {
+  position: absolute;
+  top: 1.77px;
+  left: 0;
+  border-radius: 22.58px;
+  background-color: var(--color-sienna);
+  width: 2.51px;
+  height: 11.04px;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+}
+.groupChild5 {
+  top: 0;
+  left: 13.84px;
+  transform: rotate(45deg);
+}
+.rectangleParent1 {
+  position: relative;
+  width: 15.61px;
+  height: 9.58px;
+}
+.frameDiv,
+.wieLuftDerBuchungsprozessParent {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.wieLuftDerBuchungsprozessParent {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--color-lavenderblush);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-13xl) var(--padding-21xl);
+  align-items: center;
+}
+.frameDiv {
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1200px;
+  font-size: var(--font-size-3xl);
+}
+.features33,
+.soulfi2023 {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.features33 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-61xl) var(--padding-221xl) var(--padding-141xl);
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.soulfi2023 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 160%;
+  font-family: var(--font-poppins);
+  width: 309px;
+  height: 28px;
+  opacity: 0.7;
+}
+.betterparentsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.impressum {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 309px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.frameChild {
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 255px;
+  height: 1px;
+  opacity: 0.2;
+}
+.datenschutz {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 309px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.impressumParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.kurseEntdecken {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 192px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.kurseEntdeckenParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameParent1 {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-8xl);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-poppins);
+}
+.features34,
+.frameParent1,
+.homepage {
+  display: flex;
+  align-items: flex-start;
+}
+.features34 {
+  align-self: stretch;
+  background-color: var(--color-lightcoral);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-81xl) var(--padding-221xl);
+  justify-content: space-between;
+  font-size: 37.26px;
+  color: var(--color-white);
+}
+.coaches{
+  text-decoration: none;
+  color: white;
+}
+.homepage {
+  position: relative;
+  width: 100%;
+  overflow-y: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 46.31px;
+  color: var(--color-sienna);
+  font-family: var(--font-josefin-sans);
+}
+@media screen and (max-width: 1200px) {
+  .features3,
+  .features33,
+  .header {
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .kurseDurchsuchenWrapper {
+    display: none;
+  }
+  .header {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .div {
+    flex: unset;
+    align-self: stretch;
+  }
+  .group,
+  .parent {
+    flex-direction: column;
+  }
+  .features33 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,162 @@
+.profilebannerChild {
+  position: relative;
+  border-radius: 15px;
+  width: 347px;
+  height: 251px;
+  object-fit: cover;
+}
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-limegreen-100);
+  width: 7px;
+  height: 7px;
+}
+.live {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.ellipseParent {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-limegreen-200);
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.coachTitles{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.yourmailcoachcom {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 40.09px; 
+  font-weight: 500;
+  color: var(--color-black);
+  text-align: left;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.startIcon {
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.endIcon,
+.label,
+.startIcon {
+  position: relative;
+}
+.label {
+  line-height: 26px;
+}
+.endIcon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button,
+.button1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--transparent-primary-16);
+  width: 163px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-3xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.button1 {
+  background-color: var(--primary-main);
+  width: 130px;
+  color: var(--background-light-paper);
+  font-family: var(--components-textfield-label);
+}
+.buttonParent,
+.frameParent,
+.profilebanner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonParent {
+  flex-direction: row;
+  gap: 11px;
+  text-align: left;
+  font-size: var(--components-button-large-size);
+  color: var(--primary-main);
+  font-family: var(--font-outfit);
+}
+.frameParent,
+.profilebanner {
+  flex-direction: column;
+  gap: 43px;
+}
+.profilebanner {
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+}
+.profilecontent {
+  flex: 1;
+  flex-direction: column;
+}
+.profilecontent,
+.profilescreenBetterparent,
+.sitecontent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sitecontent {
+  overflow-y: auto;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-61xl) var(--padding-61xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-4xl);
+}
+.profilescreenBetterparent {
+  position: relative;
+  background-color: var(--color-gray);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  height: 100vh;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-limegreen-100);
+  font-family: var(--components-textfield-label);
+}
+@media screen and (max-width: 960px) {
+  .sitecontent {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .sitecontent {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+}

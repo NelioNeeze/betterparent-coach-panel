@@ -1,0 +1,15 @@
+.coursedetailPage {
+    background-color: var(--color-gray);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 100vh;
+    overflow: hidden;
+    font-size: var(--components-button-large-size);
+    color: var(--grey-800);
+    font-family: var(--font-outfit);
+}
+.siteContent{
+    width: 100%;
+}

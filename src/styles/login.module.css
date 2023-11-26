@@ -1,0 +1,39 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding: 80px;
+    gap: 20px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.formElements{
+    width: 100%;
+}
+
+.label{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.logo{
+    width: 300px;
+}
+
+.button{
+    height: 56px;
+    border-radius: 100px;
+    width: 100%;
+}

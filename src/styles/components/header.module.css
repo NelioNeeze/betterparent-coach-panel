@@ -1,0 +1,37 @@
+.deineKurse {
+  flex: 1;
+  position: relative;
+  line-height: 34.35px;
+}
+.buttontext {
+  position: relative;
+  line-height: 26px;
+}
+.button,
+.header {
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+.button {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-main);
+  width: 220px;
+  cursor: pointer;
+  padding: var(--padding-2xs) var(--padding-3xl);
+  justify-content: center;
+  font-size: var(--components-button-large-size);
+  color: var(--background-light-paper);
+}
+.header {
+  position: relative;
+  width: 100%;
+  padding: 0 0 0 var(--padding-base);
+  justify-content: space-between;
+  text-align: left;
+  font-size: 27.06px;
+  color: var(--color-lightcoral-200);
+  font-family: var(--font-outfit);
+}
