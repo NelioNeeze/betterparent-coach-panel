@@ -14,7 +14,7 @@ const TableRow: NextPage<ITableRow> = ({
 }) => {
 
   if (image.includes("undefined")) {
-    image = "default_course_image.png"
+    image = "defaultCourseImage.png"
   }
 
   console.log("Image: ", image)

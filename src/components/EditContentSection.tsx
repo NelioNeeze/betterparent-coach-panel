@@ -46,7 +46,7 @@ const EditContentSection: NextPage<IEditContentSectionType> = ({
     }
   }  
 
-  var imageStrapiURL = "/default_course_image.png"
+  var imageStrapiURL = "/defaultCourseImage.png"
   if(formContent?.image) {
     imageStrapiURL = (process.env.NEXT_PUBLIC_STRAPI_IMAGE_URL || '') + formContent?.image
   }

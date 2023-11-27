@@ -65,7 +65,7 @@ const BlogList: NextPage = () => {
 
             {blogs?.map( (blog: any) => (
               <TableRow
-                image={"default_course_image.png"}
+                image={"defaultCourseImage.png"}
                 //image={process.env.NEXT_PUBLIC_STRAPI_IMAGE_URL + blog.data?.attributes?.image?.data?.attributes?.url}
                 title={blog.title}
                 key={blog.id}

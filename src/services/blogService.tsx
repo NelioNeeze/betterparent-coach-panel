@@ -42,11 +42,15 @@ export async function addNewBlog( blog: any, coachId: any ) {
         .post(url, 
             {
                 data:{
+                    image: blog?.image,
                     title: blog?.textField1,
                     summary: blog?.textField2,
                     text: blog?.textField3,
                     coach: {
                         connect: [parseInt(coachId)]
+                    },
+                    category: {
+                        connect: [1]
                     }
                 }
             },

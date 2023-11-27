@@ -52,6 +52,9 @@ export async function addNewCourse( course: any, coachId: any ) {
                     ageEnd: course?.ageEnd,
                     coach: {
                         connect: [parseInt(coachId)]
+                    },
+                    category: {
+                        connect: [1]
                     }
                 }
             },
