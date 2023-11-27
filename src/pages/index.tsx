@@ -8,6 +8,8 @@ const Index = () => {
   useEffect(() => {
     if (!isAuthenticated()) {
       router.push('/login');
+    } else {
+      router.push('/courses');
     }
 
   }, []);

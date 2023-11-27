@@ -32,7 +32,7 @@ const Login: NextPage = () => {
             console.log(user.isCoach)
 
             if(!user?.isCoach) {
-                window.open("http://localhost:3001/courses", "_blank");
+                window.open("http://localhost:3000/courses", "_blank");
                 console.log("Open in new tab")
             } else {
                 Router.push("/courses")

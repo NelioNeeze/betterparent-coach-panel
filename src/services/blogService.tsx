@@ -67,7 +67,7 @@ export async function addNewBlog( blog: any, coachId: any ) {
 export async function updateBlog( blog: any ) {
 
     const token = localStorage.getItem("jwtToken")
-    const url = process.env.NEXT_PUBLIC_STRAPI_URL + "/blogs/"
+    const url = process.env.NEXT_PUBLIC_STRAPI_URL + "/blogs/" + blog.id
     
     return axios
         .put(url, 

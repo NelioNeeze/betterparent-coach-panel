@@ -67,14 +67,14 @@ const CourseEdit: NextPage = () => {
   }
 
   function onSaveClick() {
-    console.log("Updated/Created Course:", formContent)
+    console.log("Updated/Created Blog:", formContent)
     if(!blogID){
       addNewBlog(formContent, coachId)
     } else {
       updateBlog(formContent)
     }
   }
-  
+
   function deleteBlogAction() {
     deleteBlog(formContent.id).then(() => {
       Router.push("/blogs")
